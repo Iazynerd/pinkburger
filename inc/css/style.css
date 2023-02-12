@@ -1,0 +1,46 @@
+header{
+    position: relative;
+    z-index: 999;
+}
+main{
+    background-image: url("../../assests/img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+.slogan{
+    position: absolute;
+    top: 59%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-shadow: 2px 2px #221e1e;
+}
+.food_menu{
+    box-shadow: 4px 4px #221e1e;
+}
+footer{
+   color: black;
+}
+.descrip{
+    font-size: 0.75rem;
+    color: rgba(0,0,0,0.5);
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
+
